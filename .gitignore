@@ -1,0 +1,19 @@
+# Don't import raw data files into GitHub repository for version control
+# Removing output files due to large file sizes also allows for the important non-output files to be published onto the online repo
+gene_result (1).txt
+ncbi_dataset/
+ncbi_dataset 2/
+ncbi_dataset 3/
+ncbi_dataset 4/
+ncbi_dataset.zip
+*.out
+data/corvus_cornix_cornix
+data/*.zip
+data/*cytb/
+data/data_old
+test_file.txt
+output_*
+scripts/corvid_JC_2.Rev
+proposal/
+.DS_store
+.gitattributes

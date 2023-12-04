@@ -16,7 +16,7 @@ ASSETS:
     - scripts/corvid_HKY.Rev: A RevBayes script that finds the maximum *a posteriori* non-clock tree under the HKY85 model
     - scripts/corvid_JC_powp.Rev: A RevBayes script using power posteriors to calculate average log marginal likelihoods for the Jukes-Cantor 1969 nucleotide substitution model (JC69/JC)
     - scripts/corvid_HKY.Rev: A RevBayes script that finds the maximum *a posteriori* non-clock tree under the JC69 model
-- Yen_Meilin_Clever_Cawmparisons_IB134L.pdf: The final report written for IB134L: Practical Genomics
+- Yen_Meilin_Clever_Cawmparisons_IB134L.pdf: The final report written for IB134L: Practical Genomics (not yet uploaded)
 - README.md: a file with instructions on how to run the scripts
 - .gitignore: a file dictating which files for Git to ignore. Some files in the repository on my machine were too large for GitHub, so they were ignored. The proposal was also ignored, as it in some ways no longer reflects the final product.
 

@@ -1,5 +1,9 @@
 OBJECTIVE: Use genomic data from the family *Corvidae* to compare the performance of different models in the Bayesian approach to phylogeny
 
+HYPOTHESIS:
+- Null hypothesis: There are no significant differences in model performance.
+- Alternative hypothesis: At least one of the models is significantly better at describing the data.
+
 ASSETS:
 - data folder: a folder containing two files:
     - data/average_powp_log_likelihoods.csv: a comma-separated values file containing the average log likelihoods calculated under the path sampling and stepping-stone sampling methods for the power posteriors

@@ -1,0 +1,41 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=30;
+	Taxlabels
+		Aphelocoma_coerulescens
+		Corvus_bennetti
+		Corvus_brachyrhynchos
+		Corvus_corax
+		Corvus_cornix_cornix
+		Corvus_coronoides
+		Corvus_cryptoleucus
+		Corvus_dauuricus
+		Corvus_frugilegus
+		Corvus_hawaiiensis
+		Corvus_macrorhynchos
+		Corvus_moneduloides
+		Corvus_moriorum
+		Corvus_pectoralis
+		Corvus_splendens
+		Cyanopica_cyanus
+		Dendrocitta_formosae
+		Garrulus_glandarius
+		Lanius_ludovicianus
+		Nucifraga_caryocatactes
+		Nucifraga_columbiana
+		Pica_hudsonia
+		Pica_nuttalli
+		Pica_pica
+		Pica_serica
+		Podoces_hendersoni
+		Pyrrhocorax_graculus
+		Pyrrhocorax_pyrrhocorax
+		Urocissa_caerulea
+		Urocissa_erythroryncha
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((((((((((((Corvus_bennetti[&index=30]:0.005786[&brlen_95%_HPD={0,0.013055}],Corvus_coronoides[&index=25]:0.079001[&brlen_95%_HPD={0.055733,0.103579}])[&index=31,posterior=1.000000]:0.017188[&brlen_95%_HPD={0.006542,0.028668}],Corvus_moriorum[&index=23]:0.030459[&brlen_95%_HPD={0.018067,0.043886}])[&index=32,posterior=0.999993]:0.019224[&brlen_95%_HPD={0.007532,0.032239}],Corvus_moneduloides[&index=14]:0.051202[&brlen_95%_HPD={0.03313,0.070201}])[&index=33,posterior=1.000000]:0.024994[&brlen_95%_HPD={0.011703,0.0399}],(Corvus_macrorhynchos[&index=5]:0.037263[&brlen_95%_HPD={0.022222,0.05414}],Corvus_splendens[&index=27]:0.036562[&brlen_95%_HPD={0.021512,0.05298}])[&index=34,posterior=0.999527]:0.019767[&brlen_95%_HPD={0.00697,0.033768}])[&index=35,posterior=0.989937]:0.011876[&brlen_95%_HPD={0.001201,0.023594}],((Corvus_cornix_cornix[&index=18]:0.020988[&brlen_95%_HPD={0.011065,0.031842}],Corvus_pectoralis[&index=17]:0.015152[&brlen_95%_HPD={0.006501,0.024609}])[&index=36,posterior=1.000000]:0.020165[&brlen_95%_HPD={0.008564,0.032904}],Corvus_brachyrhynchos[&index=3]:0.025537[&brlen_95%_HPD={0.012934,0.038712}])[&index=37,posterior=1.000000]:0.026842[&brlen_95%_HPD={0.013183,0.041285}])[&index=38,posterior=0.901311]:0.011020[&brlen_95%_HPD={0.001438,0.022057}],((Corvus_corax[&index=8]:0.023025[&brlen_95%_HPD={0.011099,0.035967}],Corvus_cryptoleucus[&index=15]:0.026825[&brlen_95%_HPD={0.014251,0.04084}])[&index=39,posterior=1.000000]:0.032709[&brlen_95%_HPD={0.017166,0.048798}],(Corvus_frugilegus[&index=19]:0.050769[&brlen_95%_HPD={0.032139,0.070849}],Corvus_hawaiiensis[&index=11]:0.059990[&brlen_95%_HPD={0.039116,0.081716}])[&index=40,posterior=0.947191]:0.011844[&brlen_95%_HPD={0.001549,0.023361}])[&index=41,posterior=0.999670]:0.015350[&brlen_95%_HPD={0.003827,0.028243}])[&index=42,posterior=1.000000]:0.029632[&brlen_95%_HPD={0.012351,0.048056}],Corvus_dauuricus[&index=28]:0.078322[&brlen_95%_HPD={0.052655,0.105967}])[&index=43,posterior=0.999977]:0.026925[&brlen_95%_HPD={0.00945,0.046049}],(Nucifraga_caryocatactes[&index=9]:0.060379[&brlen_95%_HPD={0.038461,0.084008}],Nucifraga_columbiana[&index=16]:0.051511[&brlen_95%_HPD={0.030866,0.072811}])[&index=44,posterior=0.999633]:0.022050[&brlen_95%_HPD={0.006467,0.038949}])[&index=45,posterior=0.998927]:0.018359[&brlen_95%_HPD={0.004588,0.0337}],Garrulus_glandarius[&index=4]:0.147201[&brlen_95%_HPD={0.104554,0.19349}])[&index=46,posterior=0.612224]:0.009790[&brlen_95%_HPD={0,0.022587}],(((Pica_hudsonia[&index=2]:0.001222[&brlen_95%_HPD={0,0.003473}],Pica_nuttalli[&index=22]:0.001484[&brlen_95%_HPD={0,0.003887}])[&index=47,posterior=0.997900]:0.015602[&brlen_95%_HPD={0.003829,0.028745}],(Pica_pica[&index=21]:0.003501[&brlen_95%_HPD={0.000497,0.007061}],Pica_serica[&index=26]:0.001037[&brlen_95%_HPD={0,0.003081}])[&index=48,posterior=1.000000]:0.034837[&brlen_95%_HPD={0.019249,0.051615}])[&index=49,posterior=1.000000]:0.079628[&brlen_95%_HPD={0.04925,0.111681}],Podoces_hendersoni[&index=10]:0.166479[&brlen_95%_HPD={0.120471,0.21655}])[&index=50,posterior=0.838208]:0.015813[&brlen_95%_HPD={0.001103,0.032822}])[&index=51,posterior=0.521261]:0.009711[&brlen_95%_HPD={0.000273,0.021043}],(((Pyrrhocorax_graculus[&index=6]:0.071459[&brlen_95%_HPD={0.042129,0.100909}],Pyrrhocorax_pyrrhocorax[&index=12]:0.092380[&brlen_95%_HPD={0.060042,0.126691}])[&index=52,posterior=1.000000]:0.064097[&brlen_95%_HPD={0.035446,0.095511}],Dendrocitta_formosae[&index=29]:0.090095[&brlen_95%_HPD={0.058066,0.123488}])[&index=53,posterior=0.916724]:0.017364[&brlen_95%_HPD={0.002041,0.034753}],((Urocissa_caerulea[&index=7]:0.018110[&brlen_95%_HPD={0.005172,0.032277}],Urocissa_erythroryncha[&index=20]:0.017669[&brlen_95%_HPD={0.004682,0.031521}])[&index=54,posterior=1.000000]:0.106874[&brlen_95%_HPD={0.067342,0.146867}],Lanius_ludovicianus[&index=1]:0.294492[&brlen_95%_HPD={0.21283,0.378777}])[&index=55,posterior=0.549368]:0.016516[&brlen_95%_HPD={4e-06,0.037575}])[&index=56,posterior=1.000000]:0.038322[&brlen_95%_HPD={0.016468,0.061797}])[&index=57,posterior=0.930877]:0.033187[&brlen_95%_HPD={0.009961,0.057616}],Aphelocoma_coerulescens[&index=24]:0.137527[&brlen_95%_HPD={0.094546,0.18465}],Cyanopica_cyanus[&index=13]:0.135303[&brlen_95%_HPD={0.092219,0.181218}])[&index=58,posterior=1.000000]:0.000000;
+End;

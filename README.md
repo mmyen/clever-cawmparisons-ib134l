@@ -5,7 +5,7 @@ HYPOTHESIS:
 - Alternative hypothesis: At least one of the models is significantly better at describing the data.
 
 ASSETS:
-- data folder: a folder containing two files:
+- data folder: a folder containing 2 files.
     - data/average_powp_log_likelihoods.csv: a comma-separated values file containing the average log likelihoods calculated under the path sampling and stepping-stone sampling methods for the power posteriors
     - data/corvids_and_outgroup.nex: a Nexus file containing the gene sequences for the cytochrome b (cytb) gene for 29 species of corvid, plus 1 outgroup (*Lanius ludovicianus*)
 - scripts folder: a folder containing 11 scripts.
@@ -19,14 +19,19 @@ ASSETS:
     - scripts/corvid_HKY_powp.Rev: A RevBayes script using power posteriors to calculate average log marginal likelihoods for the Hasegawa-Kishino-Yano 1985 nucleotide substitution model (HKY85/HKY)
     - scripts/corvid_HKY.Rev: A RevBayes script that finds the maximum *a posteriori* non-clock tree under the HKY85 model
     - scripts/corvid_JC_powp.Rev: A RevBayes script using power posteriors to calculate average log marginal likelihoods for the Jukes-Cantor 1969 nucleotide substitution model (JC69/JC)
-    - scripts/corvid_HKY.Rev: A RevBayes script that finds the maximum *a posteriori* non-clock tree under the JC69 model
-- Yen_Meilin_Clever_Cawmparisons_IB134L.pdf: The final report written for IB134L: Practical Genomics (not yet uploaded)
+    - scripts/corvid_JC.Rev: A RevBayes script that finds the maximum *a posteriori* non-clock tree under the JC69 model
+- trees: a folder containing 3 files.
+    - trees/corvids_cytb_GTR_gamma_MAP_brlen.png: The maximum *a posteriori* non-clock tree under the GTR + Γ model, where branch lengths are the expected number of substitutions per site
+    - trees/corvids_cytb_GTR_gamma_MAP_cladeprobs.png: The maximum *a posteriori* non-clock tree under the GTR + Γ model, where node labels are the posterior probabilities of clade monophyly
+    - trees/corvids_cytb_GTR_gamma_MAP.tree: the maximum *a posteriori* non-clock tree under the GTR + Γ model. This file is viewable in FigTree.
+- Yen_Meilin_Clever_Cawmparisons_IB134L.pdf: The final report written for IB134L: Practical Genomics
 - README.md: a file with instructions on how to run the scripts
 - .gitignore: a file dictating which files for Git to ignore. Some files in the repository on my machine were too large for GitHub, so they were ignored. The proposal was also ignored, as it in some ways no longer reflects the final product.
 
 REQUIREMENTS/CONSTRAINTS:
 - The code should be ran on a machine able to install and run python3.
 - The code should be ran on a machine able to install and run RevBayes. The scripts can be run through the terminal.
+- If one needs to view the raw tree file in the trees folder, the machine should be able to install and run FigTree.
 - The code takes time in the magnitude of hours to run. The computer must be able to keep running the code even when the screen shuts off.
 - The filepaths at the beginning of each Rev script should be updated as needed to match the file paths on your local machine.
 
